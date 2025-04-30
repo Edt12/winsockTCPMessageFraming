@@ -18,8 +18,8 @@
 
 namespace messageFramerTCP
 {
-	static int safeSend(const char message[], int messageSize, SOCKET receivingSocket);
+	int safeSend(const char message[], int messageSize, SOCKET receivingSocket);
 
-	static char* safeReceive(SOCKET receivingSocket);
+	char* safeReceive(SOCKET receivingSocket);
 
 }
