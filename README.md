@@ -7,3 +7,7 @@ These practices ensure that the right thing is read from the tcp buffer the whol
 
 This was made as something for myself to deal with an issue I encountered when making a messaging app and so likely will not be updated
 
+Requirements
+Winsock2
+
+
